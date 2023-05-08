@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>アクセス | ACCESS</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -37,12 +38,14 @@
 		</div>
 	</main>
 	<!-- メイン ここまで -->
-	<!-- フッター -->
-	<footer class="footer">
-		<script src="sample.js"></script>
-		<script>footer();</script>
-	</footer>
-	<!-- フッター ここまで -->
+  <!-- ここからフッター -->
+  <div id="box"></div>
+  <script>
+	$(function(){
+	  $("#box").load("footer.html");
+	});
+  </script>
+<!-- フッターここまで -->
 </div>
 </body>
 </html>
