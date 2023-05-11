@@ -138,6 +138,13 @@ span {
   padding: 0px 0px 5px 5px;
   color: #e48989;
 }
+
+/*全てのページに適用　オリジナル作品*/
+.original{
+  font-size: 14px;
+  padding: 0px 0px 5px 5px;
+  color: #4d4d4d;
+}
 /*全てのページに適用　Goods Name*/
 .goodsname{
   font-size: 20px;
