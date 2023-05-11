@@ -128,6 +128,10 @@ video{ /* 動画のサイズをボックスの幅に合わせて調整する，�
   color: #5a9bc0;
   text-decoration: none;
 }
+/*全てのページに適用　文字の途中改行防止*/
+span {
+  display: inline-block;
+}
 /*全てのページに適用　スペシャルサンクス*/
 .thanks{
   font-size: 14px;
