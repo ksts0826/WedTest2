@@ -100,6 +100,11 @@ video{ /* 動画のサイズをボックスの幅に合わせて調整する，�
   text-decoration: none;
 }
 /*全てのページに適用　目次*/
+
+.mokuji ul{
+  margin: 0 0 0 0 ;
+  padding: 5px 10px 15px 5px;
+}
 .mokuji li{
   display: inline;
   list-style-type: none;
