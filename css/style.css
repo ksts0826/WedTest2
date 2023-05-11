@@ -99,6 +99,7 @@ video{ /* 動画のサイズをボックスの幅に合わせて調整する，�
   color: #5a9bc0;
   text-decoration: none;
 }
+
 /*全てのページに適用　目次*/
 
 .mokuji ul{
@@ -126,6 +127,18 @@ video{ /* 動画のサイズをボックスの幅に合わせて調整する，�
 .mokuji a:active{
   color: #5a9bc0;
   text-decoration: none;
+}
+/*全てのページに適用　スペシャルサンクス*/
+.thanks{
+  font-size: 14px;
+  padding: 0px 0px 5px 5px;
+  color: #e48989;
+}
+/*全てのページに適用　Goods Name*/
+.goodsname{
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  color: #000000;
 }
 /*全てのページに適用　フッター*/
 .footer{
