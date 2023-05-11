@@ -99,6 +99,29 @@ video{ /* 動画のサイズをボックスの幅に合わせて調整する，�
   color: #5a9bc0;
   text-decoration: none;
 }
+/*全てのページに適用　目次*/
+.mokuji li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.mokuji a:link{
+  color: #3c454d;
+  text-decoration: none;
+}
+.mokuji a:visited{
+  color: #3c454d;
+  text-decoration: none;
+}
+.mokuji a:hover{
+  color: #7b8dac;
+  text-decoration: none;
+}
+.mokuji a:active{
+  color: #5a9bc0;
+  text-decoration: none;
+}
 /*全てのページに適用　フッター*/
 .footer{
   background-image: url(../images/fotter-bg.png);
