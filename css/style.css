@@ -138,7 +138,10 @@ span {
   padding: 0px 0px 5px 5px;
   color: #e48989;
 }
-
+/*全てのページに適用　red*/
+.red{
+  color: red;
+}
 /*全てのページに適用　オリジナル作品*/
 .original{
   font-size: 14px;
